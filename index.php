@@ -10,7 +10,7 @@ echo <<<EOF
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<title></title>
+<title>Lucky貓妹抖</title>
 </head>
 <body>
 EOF;
