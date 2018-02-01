@@ -3,7 +3,7 @@ function unam_to_uid()
 {
 	document.getElementById('qmsg').innerHTML = "查找中，請稍候…";
 	var unam = document.getElementById('unam').value;
-	var url = "http://uhunt.onlinejudge.org/api/uname2uid/"+encodeURIComponent(unam);
+	var url = "https://uhunt.onlinejudge.org/api/uname2uid/"+encodeURIComponent(unam);
 	document.getElementById('unam').value = unam;
 	if (window.XMLHttpRequest)
 	{
