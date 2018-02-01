@@ -31,8 +31,9 @@ EOF;
 }
 // prepare fetcher
 $maid = new LuckyFetcher();
-// update database, not forced
-$maid->update();
+// update database
+$forced = ($_GET['forced'] ? true : false);
+$maid->update(forced);
 // get data to display
 $maid->display(intval($_GET['uid']));
 echo <<<EOF
